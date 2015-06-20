@@ -1,5 +1,5 @@
 var loader = new resLoader({
-     resources : ["../image/atone.jpg","../image/bye.jpg","../image/confess.jpg","../image/end.jpg","../image/first.jpg","../image/grow-up.jpg","../image/inferior.jpg","../image/lonely.jpg","../image/one.jpg","../image/pride.jpg","../image/refuse.jpg","bgm.ogg"],
+     resources : ["../image/atone.jpg","../image/bye.jpg","../image/confess.jpg","../image/end.jpg","../image/first.jpg","../image/grow-up.jpg","../image/inferior.jpg","../image/lonely.jpg","../image/one.jpg","../image/pride.jpg","../image/refuse.jpg"],
      onStart : function(total){
           console.log('start:'+total);
      },
