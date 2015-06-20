@@ -1,0 +1,367 @@
+h1,h2,h3,h4,h5,h6,a,p{
+	font-family: "YouYuan" ! important;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	transition: 1s;
+}
+
+.progress{
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,1);
+}
+
+.progressbar{
+	position: absolute;
+	left: 0px;
+	top: 40%;
+	width: 0%;
+	height: 20px;
+	background-color: rgba(255,255,255,1);
+}
+
+.progresstext{
+	width: 100%;
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 50%;
+}
+
+.step { 
+	width: 1366px;
+	height: 768px;
+	text-align:center;
+	color: white; 
+}
+
+.impress-enabled .step {
+    -webkit-transition: opacity 1.5s;
+    -moz-transition:    opacity 1.5s;
+    -ms-transition:     opacity 1.5s;
+    -o-transition:      opacity 1.5s;
+    transition:         opacity 1.5s;
+}
+
+.step:not(.active) {
+  opacity: 0;
+}
+
+.impress-enabled{
+	background-size: 100% 100%;
+}
+
+.impress-enabled .step.active { 
+	opacity: 1;
+}
+
+.no-support-message { 
+	display: none;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto 24px auto; 
+	text-align:center;
+	color: white; 
+	background-color: black;
+}
+
+.impress-not-supported .no-support-message { 
+	display:block; 
+}
+
+/*first-page*/
+#first-content{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	width: 50%;
+	line-height: 30px;
+}
+
+#first-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#first-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-first-page{
+	background-image: url(../image/first.jpg);
+}
+
+/*one*/
+#one-content{
+	position: absolute;
+	top: 20%;
+	width: 40%;
+	right: 30%;
+	line-height: 30px;
+}
+
+#one-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#one-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-one{
+	background-image: url(../image/one.jpg);
+}
+
+/*lonely*/
+#lonely-content{
+	position: absolute;
+	top: 15%;
+	width: 40%;
+	left: 5%;
+	line-height: 30px;
+}
+
+#lonely-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#lonely-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-lonely{
+	background-image: url(../image/lonely.jpg);
+}
+
+/*deceive*/
+#deceive-content{
+	position: absolute;
+	top: 50%;
+	width: 40%;
+	left: 50%;
+	line-height: 30px;
+}
+
+#deceive-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#deceive-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-deceive{
+	background-image: url(../image/deceive.jpg);
+}
+
+/*refuse*/
+#refuse-content{
+	position: absolute;
+	top: 45%;
+	width: 30%;
+	left: 5%;
+	line-height: 30px;
+}
+
+#refuse-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#refuse-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-refuse{
+	background-image: url(../image/refuse.jpg);
+}
+
+/*grow-up*/
+#grow-up-content{
+	position: absolute;
+	bottom: 5%;
+	width: 40%;
+	left: 60%;
+	line-height: 30px;
+}
+
+#grow-up-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#grow-up-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-grow-up{
+	background-image: url(../image/grow-up.jpg);
+}
+
+/*inferior*/
+#inferior-content{
+	position: absolute;
+	top: 25%;
+	width: 40%;
+	left: 5%;
+	line-height: 30px;
+}
+
+#inferior-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#inferior-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-inferior{
+	background-image: url(../image/inferior.jpg);
+}
+
+/*pride*/
+#pride-content{
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	line-height: 30px;
+}
+
+#pride-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#pride-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-pride{
+	background-image: url(../image/pride.jpg);
+}
+
+/*atone*/
+#atone-content{
+	position: absolute;
+	top: 5%;
+	width: 30%;
+	left: 70%;
+	line-height: 30px;
+}
+
+#atone-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#atone-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-atone{
+	background-image: url(../image/atone.jpg);
+}
+
+/*end*/
+#end-content{
+	position: absolute;
+	right: 10%;
+	top: 70%;
+	line-height: 30px;
+}
+
+#end-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#end-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-end{
+	background-image: url(../image/end.jpg);
+}
+
+/*confess*/
+#confess-content{
+	width: 60%;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+#confess-desc{
+	margin: 0px;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.impress-on-confess{
+	background-image: url(../image/confess.jpg);
+}
+
+/*bye*/
+#bye-content{
+	position: absolute;
+	left: 20%;
+	top: 15%;
+	line-height: 30px;
+}
+
+#bye-title{
+	margin: 0px;
+	font-size: 32px;
+}
+
+#bye-desc{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.impress-on-bye{
+	background-image: url(../image/bye.jpg);
+}
+
+
+.text-center{
+	text-align: center;
+}
